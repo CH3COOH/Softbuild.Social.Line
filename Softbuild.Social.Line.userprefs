@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Wada Kenji の iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendLineSample/SendLineSampleViewController.cs">
+    <Files>
+      <File FileName="SendLineSample/SendLineSampleViewController.cs" Line="29" Column="31" />
+      <File FileName="Softbuild.Social.Line/LineOpener.cs" Line="43" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
