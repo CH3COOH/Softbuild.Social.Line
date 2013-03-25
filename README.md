@@ -13,13 +13,23 @@ LINEアプリに対して文字列もしくは画像を送る `LineOpener` ク�
 
 ### LineOpener
 
+テキストを送る場合
+
 ```
-if (LineOpener.CanOpenLine())
-{
-    LineOpener.OpenLine("test for you");
+if (LineOpener.CanOpenLine()) {
+    LineOpener.OpenLine("I love you.");
+} else {
+    LineOpener.OpenAppStore();
 }
-else
-{
+```
+
+画像を送る場合
+
+```
+var image = new UIImage("sample.png");
+if (LineOpener.CanOpenLine()) {
+    LineOpener.OpenLine(image);
+} else {
     LineOpener.OpenAppStore();
 }
 ```
@@ -33,6 +43,7 @@ Softbuild.Social.Line プロジェクトをソリューションに追加し、�
 MIT License
 
 Created by Kenji Wada on 2013/03/26.
+
 Original project created by griffin_stewie on 2013/02/01.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
